@@ -18,12 +18,14 @@ origin ROM_START
     include "asm/macros.asm"
     include "asm/constants.asm"
 	include "asm/ponteiros.asm"
+    
 // ; Configuration
 constant CONFIG_LANGUAGE(PORTUGUESE)
 
 if (CONFIG_LANGUAGE == ENGLISH) {
 
 	include "text/en/character.asm"
+    include "text/en/intro.asm"
 
 }
 
@@ -35,4 +37,5 @@ if (CONFIG_LANGUAGE == PORTUGUESE) {
 
     
     include "text/br/character.asm"
+    include "text/br/intro.asm"
 }

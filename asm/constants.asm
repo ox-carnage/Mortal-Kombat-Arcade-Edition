@@ -12,6 +12,7 @@ constant JAPANESE(7)
 // CONTROL CODES
 constant ENDSTRING($00)
 constant BREAKLINE($FF)
+//constant CONTROL($020311)
 
 
 // GAME

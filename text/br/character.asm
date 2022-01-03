@@ -1,7 +1,7 @@
 
-origin $003D0950
+origin $003D0951
 dialogue_kage:
-	dialogue_text("A MARTIAL ARTS SUPERSTAR TRAINED")
+	dialogue_text_start(" A MARTIAL ARTS SUPERSTAR TRAINED")
 	dialogue_text("BY  GREAT  MASTERS FROM AROUND THE")
 	dialogue_text(" WORLD.")
 	dialogue_text("     CAGE USES HIS TALENTS ON")
@@ -11,13 +11,11 @@ dialogue_kage:
 	dialogue_text("  FIST II AS WELL AS THE AWARD")
 	dialogue_text("    WINNING SUDDEN VIOLENCE.")
 	end()
-	dw ($02)
-	dw ($03)
-	dw ($11)
-		
-		
-dialogue_text_02:
-	dialogue_text("	  A MERCENARY, THUG EXTORTIONIST")
+	db ($02)
+	db ($03)
+	db ($11)	
+dialogue_kano:
+	dialogue_text_start("	  A MERCENARY, THUG EXTORTIONIST")
 	dialogue_text("THIEF - KANO LIVES A LIFE OF CRIME")
 	dialogue_text("         AND INJUSTICE.")
 	dialogue_text("  HE IS A DEVOTED MEMBER OF THE")
@@ -26,12 +24,11 @@ dialogue_text_02:
 	dialogue_text("   RESPECTED THROUGHOUT ALL OF")
 	dialogue_text("      CRIME'S INNER CIRCLES.")
 		end()
-		dw ($02)
-		dw ($03)
-		dw ($11)
-	
-dialogue_text_03:
-	dialogue_text("THE NAME RAIDEN IS ACTUALLY THAT")
+		db ($02)
+		db ($03)
+		db ($11)
+dialogue_raiden:
+	dialogue_text_start("THE NAME RAIDEN IS ACTUALLY THAT")
 	dialogue_text("     OF A DEITY KNOWN AS")
 	dialogue_text("       THE THUNDER GOD.")
 	break_line()
@@ -40,12 +37,11 @@ dialogue_text_03:
 	dialogue_text("  HIMSELF AND TOOK THE FORM OF A")
 	dialogue_text("HUMAN TO COMPETE IN THE TOURNAMENT.")
 		end()
-		dw ($02)
-		dw ($03)
-		dw ($11)
-	
-dialogue_text_04:
-	dialogue_text("ONCE A MEMBER OF THE SUPER SECRET")
+		db ($02)
+		db ($03)
+		db ($11)
+dialogue_liu_kang:
+	dialogue_text_start("ONCE A MEMBER OF THE SUPER SECRET")
 	dialogue_text("WHITE LOTUS SOCIETY, LIU KANG LEFT")
 	dialogue_text("   THE ORGANIZATION IN ORDER TO")
 	dialogue_text("     REPRESENT SHAOLIN TEMPLES")
@@ -54,12 +50,11 @@ dialogue_text_04:
 	dialogue_text("      KANG IS STRONG IN HIS")
 	dialogue_text(" BELIEFS AND DESPISES SHANG TSUNG.")
 		end()
-		dw ($02)
-		dw ($03)
-		dw ($11)
-
-dialogue_text_05:
-	dialogue_text("	LIKE SUB-ZERO, SCORPION'S TRUE")
+		db ($02)
+		db ($03)
+		db ($11)
+dialogue_scorpion:
+	dialogue_text_start("	LIKE SUB-ZERO, SCORPION'S TRUE")
 	dialogue_text("   NAME AND ORIGIN ARE NOT KNOWN.")
 	break_line()
 	dialogue_text("  HE HAS SHOWN FROM TIME TO TIME")
@@ -69,12 +64,11 @@ dialogue_text_05:
 	dialogue_text(" BETWEEN NINJAS, THIS IS USUALLY")
 	dialogue_text("     A SIGN OF OPPOSING CLANS.")
 		end()
-		dw ($02)
-		dw ($03)
-		dw ($12)
-
-dialogue_text_06:
-		dialogue_text("THE ACTUAL NAME OR IDENTITY OF")
+		db ($02)
+		db ($03)
+		db ($12)
+dialogue_sub_zero:
+		dialogue_text_start("THE ACTUAL NAME OR IDENTITY OF")
 		dialogue_text("     THIS WARRIOR IS UNKNOWN.")
 		break_line()
 		dialogue_text("   HOWEVER BASED ON THE MARKINGS")
@@ -82,12 +76,12 @@ dialogue_text_06:
 		dialogue_text("      BELONGS TO THE LIN KUEI,")
 		dialogue_text("A LEGENDARY CLAN OF CHINESE NINJA.")
 		end()
-		dw ($02)
-		dw ($03)
-		dw ($11)
+		db ($02)
+		db ($03)
+		db ($11)
 
-dialogue_text_07:
-		dialogue_text("	SONYA IS A MEMBER OF A TOP U.S.")
+dialogue_sonya:
+		dialogue_text_start("	SONYA IS A MEMBER OF A TOP U.S.")
 		dialogue_text("SPECIAL FORCES UNIT. HER TEAM WAS")
 		dialogue_text("HOT ON THE TRAIL OF KANO'S BLACK")
 		dialogue_text("       DRAGON ORGANIZATION.")
@@ -96,6 +90,6 @@ dialogue_text_07:
 		dialogue_text(" ISLAND WHERE THEY WERE AMBUSHED")
 		dialogue_text(" BY SHANG TSUNG'S PERSONAL ARMY.")
 		end()
-		dw ($02)
-		dw ($03)
-		dw ($11)
+		db ($02)
+		db ($03)
+		db ($11)
