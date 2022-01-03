@@ -6,13 +6,13 @@
 
 
 macro dialogue_text(TEXT) {
-    table "tbl/tabela.tbl"
+    table "tbl/global.tbl"
     db {TEXT}
     break_line()
 }
 
 macro menu_text(TEXT) {
-	table "tbl/menus.tbl"
+	table "tbl/global.tbl"
     db {TEXT}
     end()
 }

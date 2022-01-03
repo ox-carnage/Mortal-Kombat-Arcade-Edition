@@ -1,6 +1,6 @@
 
-origin $00396BA1
-dialogue_text_01:
+origin $003D0950
+dialogue_kage:
 	dialogue_text("A MARTIAL ARTS SUPERSTAR TRAINED")
 	dialogue_text("BY  GREAT  MASTERS FROM AROUND THE")
 	dialogue_text(" WORLD.")
